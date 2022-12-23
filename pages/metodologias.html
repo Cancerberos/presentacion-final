@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentacion Trabajo Final | Herramientas utilizadas</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="/images/logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/dominio.html">Dominio del Sistema</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/metodologias.html">Herramientas utilizadas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/backoffice.html">BackOffice</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/app-mobile.html">App Mobile</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/web.html">Web</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pages/despliegue.html">Despliegue</a>
+                  </li>
+          </div>
+        </div>
+      </nav>    
+
+      <div class="container">
+        <div class="row">
+          <h1 class="h1">Herramientas utilizadas</h1>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  UML
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="row">
+                    <div class="col-4">
+                        <img src="/images/uml.png" class="rounded float-start" height="178" width="284" alt="Imagen UML">
+                    </div>
+                    <div class="col-8">
+                      <strong>UML (Unified Modeling Language)</strong> es un lenguaje para especificar, construir, visualizar y documentar los artefactos de un sistema de software orientado a objetos.
+                      Se ha logrado convertir en un estándar con el que es posible modelar todos los componentes del proceso de desarrollo de aplicaciones. No pretende definir un modelo estándar de desarrollo, sino únicamente un lenguaje de modelado.
+                    </div>
+                  </div>
+                    <hr>
+                    <div class="row">
+                        <h5 class="h5">Diagrama de clases</h5>
+                        <img src="/images/diagrama_clases.jpg" alt="Diagrama de Clases">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Domain Driven Design (DDD)
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Se relaciona con, o es, una SDS porque guía el proceso de desarrollo de software.
+                  El diseño guiado por el dominio, es un enfoque para el desarrollo de software con necesidades complejas mediante una profunda conexión entre la   implementación y los conceptos del modelo y núcleo del negocio.
+                  El DDD no es una tecnología ni una metodología, este provee una estructura de prácticas y terminologías para tomar decisiones de diseño que enfoquen y aceleren el manejo de dominios complejos en los proyectos de software.
+                  Ventajas de usar domain-driven design:
+                  <ul>
+                    <li>
+                      Comunicación efectiva entre expertos del dominio y expertos técnicos a través de Ubiquitous Language.
+                    </li>
+                    <li>
+                      Foco en el desarrollo de un área dividida del dominio (subdominio) a través de Bounded Context’s.
+                    </li>
+                    <li>
+                      El software es más cercano al dominio, y por lo tanto es más cercano al cliente.
+                    </li>
+                    <li>
+                      Código bien organizado, permitiendo el testing de las distintas partes del dominio de manera aisladas.
+                    </li>
+                    <li>
+                      Lógica de negocio reside en un solo lugar, y dividida por contextos.
+                    </li>
+                    <li>
+                      Mantenibilidad a largo plazo.
+                    </li>
+                  </ul>
+                  Eric Evans
+                  <hr>
+                  <h5 class="h5">Arquitectura en capas</h5>
+                  <img src="/images/ddd.png" alt="DDD">
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Scrum
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="accordion-body">
+                    <div class="row">
+                      <div class="col-4">
+                          <img src="/images/scrum-logo.png" class="rounded float-start" alt="...">
+                      </div>
+                      <div class="col-8">
+                        Scrum es un marco de trabajo para desarrollo ágil de software que se ha expandido a otras industrias.
+                        Es un proceso en el que se aplican de manera regular un conjunto de buenas prácticas para trabajar colaborativamente, en equipo y obtener el mejor resultado posible de proyectos, caracterizado por:
+                        <ul>
+                          <li>
+                            Adoptar una estrategia de desarrollo incremental, en lugar de la planificación y ejecución completa del producto.
+                          </li>
+                          <li>
+                            Basar la calidad del resultado más en el conocimiento tácito de las personas en equipos auto organizados, que en la calidad de los procesos empleados.
+                          </li>
+                          <li>
+                            Solapar las diferentes fases del desarrollo, en lugar de realizar una tras otra en un ciclo secuencial o en cascada.
+                          </li>
+                        </ul>
+                      </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                      <img src="/images/scrum.png" alt="Scrum">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Git
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="row">
+                    <div class="col-3">
+                        <img src="/images/git.png" class="rounded float-start" alt="...">
+                    </div>
+                    <div class="col-3">
+                      <img src="/images/github.png" class="rounded float-start" alt="...">
+                  </div>
+                    <div class="col-6">
+                        <strong>Git</strong> es un software de control de versiones, pensando en la eficiencia, la confiabilidad y compatibilidad del mantenimiento de versiones de código fuente. Su propósito es llevar registro de los cambios para coordinar el trabajo que varias personas realizan sobre archivos compartidos en un repositorio. <br>
+                        <strong>Github</strong> es una plataforma de desarrollo colaborativo para alojar proyectos utilizando el sistema de control de versiones Git.
+                        <hr>
+                        <div>
+                          <a href="https://github.com/Cancerberos" target="_blank">Repositorio de Github del proyecto</a>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm col-md col-lg">
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Bootstrap Script -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

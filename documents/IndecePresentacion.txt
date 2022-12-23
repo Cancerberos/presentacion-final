@@ -1,0 +1,9 @@
+1 - Titulo, Nombre la carrera, imagen logo, año, integrantes
+2 - Explicacion del Dominio del Sistema (Cliente, Inmuebles, Avisos y Consulta), requerimientos de sistema, alcance del proyecto.
+3 - UML, Diagrama de clases, Metodologia de trabajo a utilizar (Agile) - Framework Scrum (como lo utilizamos), Git (referencia al GitHub)
+4 - Arquitectura desplegada (Multiplataforma)
+5 - BackOffice desarrollado en Framework Apache ISIS, explicacion de lo desarrollado, explicacion de bondades de  Mapache, utilizacion de API Rest, Java, ItelliJ IDEA, utilizacion de DDD, Jaspert Report, Wicket, Spring-boot, Maven, Data Nucleus, BD PostgreSQL.
+6 - AppMobile desarrollada en Flutter, explicacion (tener en cuenta la particularidad de los usuarios q pueden modificar inmuebles y las imagenes y caracteristicas) de lo desarrollado, material design, Visual Studio
+7 - Web desarrollada en Angular, explicacion de lo desarrollado, angular material, Visual Studio, TypeScript
+8 - Implementacion en AWS
+9 - Demo
